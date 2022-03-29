@@ -1,0 +1,14 @@
+.expenses {
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;  
+  
+}
+.expenses p{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+}
