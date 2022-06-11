@@ -5,13 +5,19 @@ import NewExpense from './components/NewExpenses/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
 const DUMMY_EXPENSES = [
+  {
+    id: 'e0',
+    title: 'Car brake (new)',
+    amount: 630,
+    date: new Date(2019, 3, 22),
+  },
     {
       id: 'e1',
-      title: 'Toilet Paper',
+      title: 'Oil Change',
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
-    { id: 'e2', title: 'New TV', 
+    { id: 'e2', title: 'Front Brake Infinite', 
       amount: 799.49, 
       date: new Date(2021, 2, 15) },
     {
@@ -22,9 +28,15 @@ const DUMMY_EXPENSES = [
     },
     {
       id: 'e4',
-      title: 'New Desk (Wooden)',
+      title: 'Pontiac Brake',
       amount: 450,
       date: new Date(2021, 5, 12),
+    },
+    {
+      id: 'e5',
+      title: 'Pontiac Exhaust',
+      amount: 485,
+      date: new Date(2022, 6, 10),
     }    
   ];
 

@@ -1,6 +1,7 @@
 {
   "name": "react-expenses",
   "version": "0.1.0",
+  "homepage": "https://michaelfan0310.github.io/react-expenses",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -13,10 +14,13 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+   
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

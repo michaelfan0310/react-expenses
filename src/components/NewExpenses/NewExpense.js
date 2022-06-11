@@ -24,7 +24,7 @@ function NewExpense(props){
     return(<div className='new-expense'>
 
         {!isClicked && 
-        <button onClick={NewHDL}>New</button> }       
+        <button onClick={NewHDL}>Family Cars</button> }       
 
         {isClicked && 
         <ExpenseForm onSaveData={saveDataHDL}
